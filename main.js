@@ -11,8 +11,8 @@ const resetBtn = document.getElementById("resetBtn");
 const eggRemainingLbl = document.getElementById("eggRemainingLbl");
 const totalRemainingLbl = document.getElementById("totalRemainingLbl");
 
-const levelUp = new Audio("audio/LevelUp.wav");
-const receivedEgg = new Audio("audio/receivedEgg.wav");
+const levelUp = new Audio("/audio/LevelUp.wav");
+const receivedEgg = new Audio("/audio/ReceivedEgg.wav");
 
 const EGG_DURATION = 2 * 60000;
 const SANDWICH_DURATION = 30 * 60000;
